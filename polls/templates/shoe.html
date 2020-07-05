@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shoes detail</title>
+</head>
+<body>
+{% for shoe in shoe %}
+<tr>
+    <td><B>{{shoe.name}}</B></td>
+     <td><B>{{shoe.introduction}}</B></td>
+    <td><B>{{shoe.area}}</B></td>
+</tr>
+{% endfor %}
+</body>
+</html>
